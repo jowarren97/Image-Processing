@@ -3,7 +3,7 @@ fid=fopen('H:\Desktop\BioImg\Ex1\head.128','r'); % Opens file for reading
 % into matrix x with 128 rows,
 % and 128 columns
 x=x'; % Matlab reads in arrays with a different index order [Ctd...]
- % to that of ‘C’ File was created using C, so transpose matrix
+ % to that of â€˜Câ€™ File was created using C, so transpose matrix
 fclose(fid); % Close the file handle
 
 %% 
@@ -17,7 +17,7 @@ image(x);colormap(mymap);colorbar;
 %% 
 clear; close all; % Close all windows, and clear all variables
 [X,map] = imread('trees.tif');
-image(X); % Display the image…
+image(X); % Display the imageâ€¦
 colormap(map); % with its colormap (as read from the TIFF file) 
 
 %% 
@@ -37,7 +37,7 @@ figure(3); colormap(bluemap);image(X(:,:,3)); colorbar
 
 %% 
 colormap(gray(256));
-image(X(:,:,1)); % Display the image…
+image(X(:,:,1)); % Display the imageâ€¦
 
 %% 
 close all;
